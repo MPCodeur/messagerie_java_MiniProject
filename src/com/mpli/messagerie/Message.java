@@ -16,6 +16,7 @@ public class Message {
         int i = 1;
         for (Message s: Message_list) {
             System.out.println(i + ". " + s.text + " -> " + s.person.name);
+            System.out.println("-------------------------");
             i += 1;
         }
         return i == 1;
