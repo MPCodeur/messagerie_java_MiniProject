@@ -28,7 +28,7 @@ public class Contact {
         int i = 1;
         for (Contact s: contacts) {
             System.out.println(i + ". name: " + s.name  + " number: " + s.number );
-            System.out.println("-------------------------");
+            System.out.println("--------------------------");
             i += 1;
         }
         return i == 1;
